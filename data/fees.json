@@ -1,7 +1,7 @@
 {
-  "revision": "2026-10-08.1791457315877",
-  "checkedAt": "2026-10-08",
-  "attemptedAt": "2026-10-08",
+  "revision": "2026-10-09.1791543621931",
+  "checkedAt": "2026-10-09",
+  "attemptedAt": "2026-10-09",
   "rules": [
     {
       "id": "official-shopee-cnpj-small",
@@ -24,7 +24,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08",
+      "verifiedAt": "2026-10-09",
       "perUnitPercentage": 50
     },
     {
@@ -48,7 +48,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cnpj-1",
@@ -71,7 +71,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cnpj-2",
@@ -94,7 +94,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cnpj-3",
@@ -117,7 +117,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cpf-0",
@@ -140,7 +140,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cpf-1",
@@ -163,7 +163,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cpf-2",
@@ -186,7 +186,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cpf-3",
@@ -209,7 +209,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-shopee-cpf-additional",
@@ -232,7 +232,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08",
+      "verifiedAt": "2026-10-09",
       "minOrders90": 451
     },
     {
@@ -256,7 +256,7 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "official-tiktok-high",
@@ -279,24 +279,24 @@
       "active": true,
       "priceBasis": "net",
       "origin": "official",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-09"
     }
   ],
   "sources": {
     "ml": {
-      "status": "Cotação da conta necessária",
-      "detail": "O Mercado Livre varia comissão por categoria e anúncio; a tarifa fixa também depende da logística. Informe uma cotação do simulador oficial para o produto. Nenhuma tarifa universal foi aplicada. Orientação do simulador oficial reconferida em 08/10/2026: selecionar categoria, condição, preço, tipo de anúncio e condições de envio.",
+      "status": "Fonte oficial indisponível em 09/10/2026 · cotação da conta necessária",
+      "detail": "A página oficial do simulador não pôde ser reaberta nesta conferência. Foram preservadas as regras anteriores: o Mercado Livre varia comissão por categoria e anúncio, e a tarifa fixa/logística depende das condições da venda. Nenhuma tarifa universal foi aplicada; use a cotação do simulador oficial para cada produto.",
       "url": "https://vendedores.mercadolivre.com.br/nota/como-usar-o-simulador-de-custos-do-mercado-livre",
       "verified": false
     },
     "shopee": {
-      "status": "Tabela conferida em 08/10/2026 · exceções pendentes",
+      "status": "Tabela conferida em 09/10/2026 · exceções pendentes",
       "detail": "Vigência 01/10/2026: até R$79,99, 20% + R$4,50/item; R$80–99,99, 14% + R$16; R$100–199,99, 14% + R$20; a partir de R$200, 14% + R$26. Para CNPJ abaixo de R$9, taxa por item de 50% do preço. CPF acima de 450 pedidos/90 dias: +R$3, com tarifa regressiva abaixo de R$12 a confirmar na conta. Frete Grátis incluído; Pix não reduz o repasse. Conferidos comunicado 26839, artigos 18483/18484 e tabelas vinculadas. Mantido o comunicado de outubro em prioridade aos parágrafos antigos. A tabela usa 'acima de' R$80/R$100/R$200, sem esclarecer esses valores exatos; limites inclusivos existentes preservados, sujeitos à confirmação na conta. A fórmula regressiva CPF abaixo de R$12 não foi inferida de exemplos. A documentação consultada descreve comissão sobre o produto vendido, mas não detalha todos os tipos de desconto do vendedor; base líquida existente preservada.",
       "url": "https://seller.shopee.com.br/edu/article/26839/Comissao-para-vendedores-CNPJ-e-CPF-em-2026",
       "verified": true
     },
     "tiktok": {
-      "status": "Tabela pública conferida em 08/10/2026",
+      "status": "Tabela pública conferida em 09/10/2026",
       "detail": "Regra geral vigente desde 15/07/2026. Faixa após desconto do vendedor: abaixo de R$ 50, 10% + R$ 4/item; a partir de R$ 50, 6% + R$ 6/item. Incentivos individuais, afiliados e campanhas devem ser confirmados na conta.",
       "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201",
       "verified": true
@@ -306,6 +306,6 @@
     "percentage": 6,
     "cap": 5000,
     "source": "https://seller-br.tiktok.com/university/essay?knowledge_id=5665577566734097",
-    "verifiedAt": "2026-10-08"
+    "verifiedAt": "2026-10-09"
   }
 }
